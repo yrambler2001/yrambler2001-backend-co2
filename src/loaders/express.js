@@ -8,7 +8,7 @@ import apolloLoader from './apollo';
 
 const proxyToSpotifyServer = proxy('http://localhost:5000/graphql', {
   filter(req) {
-    return ['spotifyUser', 'spotifySongsByUser'].includes(req?.body?.operationName);
+    return ['spotifySongsUsersList', 'spotifyUser', 'spotifySongsByUser'].includes(req?.body?.operationName);
   },
   proxyReqPathResolver(req) {
     return req.baseUrl;
