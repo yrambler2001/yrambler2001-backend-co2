@@ -1,6 +1,5 @@
 import { makeExecutableSchema, gql } from 'apollo-server-express';
 import merge from 'lodash/merge';
-import { SpotifyResolvers, SpotifySchema } from './modules';
 
 const Common = gql`
   type Query {
@@ -13,8 +12,8 @@ const Common = gql`
 `;
 
 const schema = makeExecutableSchema({
-  typeDefs: [Common, SpotifySchema],
-  resolvers: merge({}, SpotifyResolvers),
+  typeDefs: [Common],
+  resolvers: merge({}),
   schemaDirectives: {},
 });
 
