@@ -38,7 +38,7 @@ npm run start
 
 It uses nodemon for live-reloading
 
-When the app is started, it should be available on http://localhost:4000
+When the app is started, it should be available on http://localhost:5100
 
 ## Commit conventions
 

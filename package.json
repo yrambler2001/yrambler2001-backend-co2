@@ -1,7 +1,7 @@
 {
   "author": "",
   "license": "ISC",
-  "name": "yrambler2001-backend",
+  "name": "yrambler2001-backend-co2",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -23,8 +23,8 @@
     "cron": "1.8.2",
     "dotenv": "8.2.0",
     "express": "4.17.1",
-    "express-http-proxy": "1.6.2",
     "got": "9.6.0",
+    "graphql-type-datetime": "0.2.4",
     "lodash": "4.17.15",
     "mongoose": "5.11.8",
     "serialize-error": "8.0.1",
